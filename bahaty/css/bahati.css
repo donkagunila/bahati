@@ -1,0 +1,108 @@
+body{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FF8C00;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	z-index: 2;
+}
+.main{
+	width: 50%;
+	height: 45%;
+	position: relative;
+	z-index: 4;
+	border-radius: 7px;
+	box-shadow: 0em 0em 0.2em grey;
+}
+.left{
+	background-color: #FFB74D;
+	width: 40%;
+	height: 100%;
+	float: left;
+	border-radius: 7px 0 0 7px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+}
+.right{
+	background-color: #F0E68C;
+	width: 60%;
+	height: 100%;
+	float: left;
+	border-radius: 0 7px 7px 0;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.weka{
+	background-color: #2196F3;
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	overflow: none;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.form{
+	width: 70%;
+
+}
+.in{
+	border:none;
+	border-bottom: 1px solid grey;
+	outline: none;
+	width: 85%;
+	height: 25px;
+	background-color: transparent;
+	margin-bottom: 10px;
+}
+.usertype{
+	margin-right: 10px;
+	margin-top: 10px;
+	display: inline-block;  
+}
+select{
+	background-color:;
+	width: 165px;
+	height: 27px;
+	text-align: center;
+	border-radius: 7px;
+	outline: none;
+}
+button{
+	background-color: green;
+	text-align: center;
+	border: none;
+	width: 70px;
+	height: 27px;
+	color: white;
+	float: right;
+	position: relative;
+	top: 5px;
+	right: 42px;
+	margin-bottom: 10px;
+}
+button > a{
+	color: white;
+	text-decoration: none;
+}
+.or{
+	margin-right: 10px; 
+}
